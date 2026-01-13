@@ -1,0 +1,175 @@
+{
+  "id": "45ce3f7a-fe6d-43bd-b3b4-7ed5c5073baa",
+  "version": "2.0",
+  "name": "alarm_config",
+  "url": "https://maint.sama.dev.ctnisi.cn:30443",
+  "tests": [{
+    "id": "6b3eab34-669c-4d82-97d8-84fccc60a0f6",
+    "name": "fill_in_form",
+    "commands": [{
+      "id": "99fc6104-ff10-471f-aef3-3a1c5f1036bd",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "22b3d011-e077-4c6b-b32b-b2000283180d",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1066",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "dc77693d-2cb3-4c7f-8544-a045a232d31f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.filter-item > span",
+      "targets": [
+        ["css=.filter-item > span", "css:finder"],
+        ["xpath=//div[@id='app']/div/div/section/div[2]/div[2]/div/button/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,' 新增告警配置')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "70ed60a8-22aa-4a61-8484-46e4d5417167",
+      "comment": "",
+      "command": "click",
+      "target": "css=.el-form-item__content:nth-child(2) > .el-input > .el-input__inner",
+      "targets": [
+        ["css=.el-form-item__content:nth-child(2) > .el-input > .el-input__inner", "css:finder"],
+        ["xpath=(//input[@type='text'])[8]", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div/section/div[2]/div[2]/div[4]/div/div[2]/div/form/div[3]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "961fc4d0-b940-4728-9fc9-fca540a76bb7",
+      "comment": "",
+      "command": "type",
+      "target": "css=.el-form-item__content:nth-child(2) > .el-input > .el-input__inner",
+      "targets": [
+        ["css=.el-form-item__content:nth-child(2) > .el-input > .el-input__inner", "css:finder"],
+        ["xpath=(//input[@type='text'])[8]", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div/section/div[2]/div[2]/div[4]/div/div[2]/div/form/div[3]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/input", "xpath:position"]
+      ],
+      "value": "selenium"
+    }, {
+      "id": "a94b29b1-250d-464b-bb10-d5d2c21e1b55",
+      "comment": "",
+      "command": "click",
+      "target": "css=.el-form > .el-row .el-select .el-input__inner",
+      "targets": [
+        ["css=.el-form > .el-row .el-select .el-input__inner", "css:finder"],
+        ["xpath=(//input[@type='text'])[9]", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div/section/div[2]/div[2]/div[4]/div/div[2]/div/form/div[3]/div[2]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "89382ac1-5507-42d0-a858-0215b2927c3d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.hover > span",
+      "targets": [
+        ["css=.hover > span", "css:finder"],
+        ["xpath=//div[3]/div/div/ul/li[2]/span", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "0c0b4c15-edd9-419c-a77d-f79b9a816ee7",
+    "name": "close_window",
+    "commands": [{
+      "id": "9dd1fc67-1c6a-4f37-8db7-7f9c6d7c86dc",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4ac6be31-07aa-46c9-9906-8a475500ea03",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1066",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b8a03a5c-1517-4182-9ca6-6bf9abc02701",
+      "comment": "",
+      "command": "click",
+      "target": "id=hamburger-container",
+      "targets": [
+        ["id=hamburger-container", "id"],
+        ["css=#hamburger-container", "css:finder"],
+        ["xpath=//div[@id='hamburger-container']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div/div/div/div", "xpath:idRelative"],
+        ["xpath=//div/div/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b0d831ff-d211-47a9-a8f2-4e0ac94659af",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(2) > .el-submenu > .el-submenu__title",
+      "targets": [
+        ["css=div:nth-child(2) > .el-submenu > .el-submenu__title", "css:finder"],
+        ["xpath=//div[@id='app']/div/div/div[2]/div/div/div/ul/div[2]/li/div", "xpath:idRelative"],
+        ["xpath=//div[2]/li/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e3452c23-9f18-4b58-9824-baf4cf666c43",
+      "comment": "",
+      "command": "click",
+      "target": "css=.is-opened .nest-menu:nth-child(2) .el-menu-item",
+      "targets": [
+        ["css=.is-opened .nest-menu:nth-child(2) .el-menu-item", "css:finder"],
+        ["xpath=//div[@id='app']/div/div/div[2]/div/div/div/ul/div[2]/li/ul/div[2]/a/li", "xpath:idRelative"],
+        ["xpath=//div[2]/li/ul/div[2]/a/li", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cf869376-ab95-4477-9ad5-5110dbeb46e1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.el-table__fixed-right .el-table__row:nth-child(1) .el-button:nth-child(1) > span",
+      "targets": [
+        ["css=.el-table__fixed-right .el-table__row:nth-child(1) .el-button:nth-child(1) > span", "css:finder"],
+        ["xpath=//div[@id='app']/div/div/section/div[2]/div[2]/div[2]/div[5]/div[2]/table/tbody/tr/td[12]/div/button/span", "xpath:idRelative"],
+        ["xpath=//div[5]/div[2]/table/tbody/tr/td[12]/div/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "57bb5550-9960-4104-be18-10592905e27c",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6ec5566a-6fd6-44c1-9303-89cd7b1f062d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.el-dialog__wrapper:nth-child(5) .el-dialog__close",
+      "targets": [
+        ["css=.el-dialog__wrapper:nth-child(5) .el-dialog__close", "css:finder"],
+        ["xpath=//div[@id='app']/div/div/section/div[2]/div[2]/div[5]/div/div/button/i", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/button/i", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "0f7981c9-5be6-43ba-b052-84a253d21fa5",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["6b3eab34-669c-4d82-97d8-84fccc60a0f6"]
+  }],
+  "urls": ["https://maint.sama.dev.ctnisi.cn:30443/"],
+  "plugins": []
+}
