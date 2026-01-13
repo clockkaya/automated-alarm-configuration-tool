@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+
+# IntelliJ IDEA / PyCharm
+.idea/
+
+# Local Configuration & Secrets (隐私保护)
+config/*_cookies.json
+logs/*.log
+*.log
+
+# Drivers (通常不上传巨大的二进制文件，但为了演示方便保留也可以，建议用 webdriver-manager)
+# drivers/
